@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.maven.dao.EmployeeDAOImplTest" time="0.103" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.maven.dao.EmployeeDAOImplTest" time="0.09" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sonar.login" value="5c0d9964fb58860005b168058592a1c61b2faf1c"/>
+    <property name="sonar.login" value="d5ed8170d210d8463042de7fbe7ae5c0bf981edb"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\karteek\Documents\workspace\employeeService\target\test-classes;C:\Users\karteek\Documents\workspace\employeeService\target\classes;C:\Users\karteek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0-M1\junit-jupiter-api-5.9.0-M1.jar;C:\Users\karteek\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\karteek\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0-M1\junit-platform-commons-1.9.0-M1.jar;C:\Users\karteek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15\bin"/>
-    <property name="sun.java.command" value="C:\Users\karteek\AppData\Local\Temp\surefire16268977391571443109\surefirebooter8499868202094758927.jar C:\Users\karteek\AppData\Local\Temp\surefire16268977391571443109 2022-06-08T17-38-27_057-jvmRun1 surefire8573206791579250442tmp surefire_017609489007591146665tmp"/>
+    <property name="sun.java.command" value="C:\Users\karteek\AppData\Local\Temp\surefire2888080101187847752\surefirebooter16155774677383287101.jar C:\Users\karteek\AppData\Local\Temp\surefire2888080101187847752 2022-06-08T19-23-11_264-jvmRun1 surefire3891151046945133372tmp surefire_01266088649189091348tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\karteek\Documents\workspace\employeeService\target\test-classes;C:\Users\karteek\Documents\workspace\employeeService\target\classes;C:\Users\karteek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0-M1\junit-jupiter-api-5.9.0-M1.jar;C:\Users\karteek\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\karteek\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0-M1\junit-platform-commons-1.9.0-M1.jar;C:\Users\karteek\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\karteek\AppData\Local\Temp\surefire16268977391571443109\surefirebooter8499868202094758927.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\karteek\AppData\Local\Temp\surefire2888080101187847752\surefirebooter16155774677383287101.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.15+8-LTS-149"/>
@@ -61,8 +61,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="getEmployeeByIdTest" classname="com.maven.dao.EmployeeDAOImplTest" time="0.054"/>
+  <testcase name="getEmployeeByIdTest" classname="com.maven.dao.EmployeeDAOImplTest" time="0.044"/>
   <testcase name="getEmployeesTest" classname="com.maven.dao.EmployeeDAOImplTest" time="0.002"/>
-  <testcase name="updateEmployeeTest" classname="com.maven.dao.EmployeeDAOImplTest" time="0.002"/>
-  <testcase name="createEmployee" classname="com.maven.dao.EmployeeDAOImplTest" time="0.002"/>
+  <testcase name="updateEmployeeTest" classname="com.maven.dao.EmployeeDAOImplTest" time="0.001"/>
+  <testcase name="createEmployee" classname="com.maven.dao.EmployeeDAOImplTest" time="0.001"/>
 </testsuite>
